@@ -15,14 +15,7 @@ pipeline {
         }
         stage('Deploy to Kubernetes') {
             steps {
-            """
-                script {
-                    // Set Kubeconfig
-                    withCredentials([file(credentialsId: 'your_kubeconfig_secret_id', variable: 'KUBECONFIG_FILE')]) {
-                        sh "kubectl config view --flatten > ${env.WORKSPACE}/kubeconfig"
-                        sh "KUBECONFIG=${env.WORKSPACE}/kubeconfig kubectl apply -f k8s/deployment.yaml --namespace=${K8S_NAMESPACE}"
-                    }
-                    """
+               sh "echo hi "
                 }
             }
         }
