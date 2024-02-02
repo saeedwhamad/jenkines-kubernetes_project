@@ -15,7 +15,7 @@ pipeline {
         }
         stage('Deploy to Kubernetes') {
             steps {
-               sh "echo hi "
+               sh "echo hi bye "
                 }
 
         }
