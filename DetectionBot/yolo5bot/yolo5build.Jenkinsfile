@@ -6,7 +6,7 @@ pipeline {
 
                    sh '''
                     docker login -u saeedwh -p sa22edhama
-                    docker image build -t yolok8s:${BUILD_NUMBER} .
+                    docker image build -t yolok8s:${BUILD_NUMBER} ./DetectionBot/yolo5bot
                     docker tag yolok8s:${BUILD_NUMBER} saeedwh/yolok8s:${BUILD_NUMBER}
                     docker push saeedwh/yolok8s:${BUILD_NUMBER}
                       '''

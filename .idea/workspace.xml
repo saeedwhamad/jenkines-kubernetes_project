@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa7083dd-cd5c-4604-8789-a93e0a96d509" name="Changes" comment="fix bug">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DetectionBot/polybot/polybotbuild.Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/DetectionBot/polybot/polybotbuild.Jenkinsfile" afterDir="false" />
+    <list default="true" id="fa7083dd-cd5c-4604-8789-a93e0a96d509" name="Changes" comment="test">
+      <change beforePath="$PROJECT_DIR$/DetectionBot/yolo5bot/yolo5build.Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/DetectionBot/yolo5bot/yolo5build.Jenkinsfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,7 +191,47 @@
       <option name="project" value="LOCAL" />
       <updated>1706894864437</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="rm hi">
+      <option name="closed" value="true" />
+      <created>1706894990470</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1706894990470</updated>
+    </task>
+    <task id="LOCAL-00017" summary="add space">
+      <option name="closed" value="true" />
+      <created>1706895096655</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1706895096655</updated>
+    </task>
+    <task id="LOCAL-00018" summary="add space">
+      <option name="closed" value="true" />
+      <created>1706895410916</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1706895410916</updated>
+    </task>
+    <task id="LOCAL-00019" summary="test">
+      <option name="closed" value="true" />
+      <created>1706895483015</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1706895483015</updated>
+    </task>
+    <task id="LOCAL-00020" summary="test">
+      <option name="closed" value="true" />
+      <created>1706895978997</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1706895978997</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -201,6 +240,9 @@
     <MESSAGE value="rm" />
     <MESSAGE value="add servers code" />
     <MESSAGE value="fix bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix bug" />
+    <MESSAGE value="rm hi" />
+    <MESSAGE value="add space" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
 </project>
