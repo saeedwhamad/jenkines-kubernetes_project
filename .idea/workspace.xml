@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa7083dd-cd5c-4604-8789-a93e0a96d509" name="Changes" comment="test">
-      <change beforePath="$PROJECT_DIR$/DetectionBot/polybot/polybotbuild.Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/DetectionBot/polybot/polybotbuild.Jenkinsfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DetectionBot/polybot/bot.py" beforeDir="false" afterPath="$PROJECT_DIR$/DetectionBot/polybot/bot.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -295,7 +295,55 @@
       <option name="project" value="LOCAL" />
       <updated>1706897076297</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="test">
+      <option name="closed" value="true" />
+      <created>1706897115880</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1706897115880</updated>
+    </task>
+    <task id="LOCAL-00030" summary="test">
+      <option name="closed" value="true" />
+      <created>1706897171740</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1706897171740</updated>
+    </task>
+    <task id="LOCAL-00031" summary="test">
+      <option name="closed" value="true" />
+      <created>1706897206483</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1706897206483</updated>
+    </task>
+    <task id="LOCAL-00032" summary="test">
+      <option name="closed" value="true" />
+      <created>1706897280737</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1706897280737</updated>
+    </task>
+    <task id="LOCAL-00033" summary="test">
+      <option name="closed" value="true" />
+      <created>1706897351490</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1706897351490</updated>
+    </task>
+    <task id="LOCAL-00034" summary="test">
+      <option name="closed" value="true" />
+      <created>1706897394404</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1706897394404</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
