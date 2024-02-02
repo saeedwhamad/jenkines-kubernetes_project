@@ -7,7 +7,7 @@ pipeline {
                    sh '''
                    echo hi
                     docker login -u saeedwh -p sa22edhama
-                    docker image build -t polybotk8s:${BUILD_NUMBER} .
+                    docker image build -t polybotk8s:${BUILD_NUMBER} ./DetectionBot/polybot
                     docker tag polybotk8s:${BUILD_NUMBER} saeedwh/polybotk8s:${BUILD_NUMBER}
                     docker push saeedwh/polybotk8s:${BUILD_NUMBER}
 
