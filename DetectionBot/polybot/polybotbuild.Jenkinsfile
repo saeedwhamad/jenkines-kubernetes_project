@@ -10,6 +10,7 @@ pipeline {
                     docker tag polybotk8s:${BUILD_NUMBER} saeedwh/polybotk8s:${BUILD_NUMBER}
                     docker push saeedwh/polybotk8s:${BUILD_NUMBER}
 
+
                       '''
                       }
 
