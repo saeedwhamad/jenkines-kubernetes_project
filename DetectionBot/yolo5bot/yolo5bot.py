@@ -121,7 +121,7 @@ def consume():
                             'prediction_summary': {'S': str(prediction_summary)}
                         }
                         response = table.put_item(Item=Item)
-                        logger.info(f'the response state is " {response} !')
+                        logger.info(f'the response state is " {response} ')
 
 
                     store_prediction_summary(prediction_id, prediction_summary)

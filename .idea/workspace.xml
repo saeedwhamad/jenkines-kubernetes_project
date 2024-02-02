@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa7083dd-cd5c-4604-8789-a93e0a96d509" name="Changes" comment="test">
-      <change beforePath="$PROJECT_DIR$/DetectionBot/polybot/bot.py" beforeDir="false" afterPath="$PROJECT_DIR$/DetectionBot/polybot/bot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DetectionBot/yolo5bot/yolo5bot.py" beforeDir="false" afterPath="$PROJECT_DIR$/DetectionBot/yolo5bot/yolo5bot.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -343,7 +343,39 @@
       <option name="project" value="LOCAL" />
       <updated>1706897394404</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="test">
+      <option name="closed" value="true" />
+      <created>1706897525498</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1706897525498</updated>
+    </task>
+    <task id="LOCAL-00036" summary="test">
+      <option name="closed" value="true" />
+      <created>1706897628261</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1706897628261</updated>
+    </task>
+    <task id="LOCAL-00037" summary="test">
+      <option name="closed" value="true" />
+      <created>1706897717530</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1706897717530</updated>
+    </task>
+    <task id="LOCAL-00038" summary="test">
+      <option name="closed" value="true" />
+      <created>1706897773940</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1706897773940</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
