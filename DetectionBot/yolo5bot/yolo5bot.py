@@ -133,7 +133,7 @@ def consume():
                     if response.status_code == 200:
                         logger.info("get request was sucssfull")
                     else:
-                        logger.info("get request failed !!  ")
+                        logger.info("get request failed !!")
 
 
 
