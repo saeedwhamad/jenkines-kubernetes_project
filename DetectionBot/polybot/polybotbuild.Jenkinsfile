@@ -3,7 +3,7 @@ pipeline {
     stages{
         stage('Build') {
             steps {
-               dir('\DetectionBot\polybot\'){
+
                    sh '''
                     docker login -u saeedwh -p sa22edhama
                     docker image build -t polybotk8s:${BUILD_NUMBER} .
@@ -11,7 +11,7 @@ pipeline {
                     docker push saeedwh/polybotk8s:${BUILD_NUMBER}
                       '''
                       }
-            }
+
 
         }
      }
