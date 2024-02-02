@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa7083dd-cd5c-4604-8789-a93e0a96d509" name="Changes" comment="add servers code">
+    <list default="true" id="fa7083dd-cd5c-4604-8789-a93e0a96d509" name="Changes" comment="fix bug">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DetectionBot/polybot/polybotbuild.Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/DetectionBot/polybot/polybotbuild.Jenkinsfile" afterDir="false" />
     </list>
@@ -160,7 +160,39 @@
       <option name="project" value="LOCAL" />
       <updated>1706892551990</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="fix bug">
+      <option name="closed" value="true" />
+      <created>1706892876776</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1706892876776</updated>
+    </task>
+    <task id="LOCAL-00013" summary="fix bug">
+      <option name="closed" value="true" />
+      <created>1706892950921</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1706892950921</updated>
+    </task>
+    <task id="LOCAL-00014" summary="fix bug">
+      <option name="closed" value="true" />
+      <created>1706893828412</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1706893828412</updated>
+    </task>
+    <task id="LOCAL-00015" summary="fix bug">
+      <option name="closed" value="true" />
+      <created>1706894864437</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1706894864437</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -168,6 +200,7 @@
     <MESSAGE value="add autoscaler" />
     <MESSAGE value="rm" />
     <MESSAGE value="add servers code" />
-    <option name="LAST_COMMIT_MESSAGE" value="add servers code" />
+    <MESSAGE value="fix bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix bug" />
   </component>
 </project>
