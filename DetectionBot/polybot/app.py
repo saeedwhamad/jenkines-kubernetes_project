@@ -48,7 +48,7 @@ logger.info(f'TELEGRAM_APP_URL = {TELEGRAM_APP_URL}')
 
 @app.route('/is_alive', methods=['GET'])
 def index():
-    return 'Ok'
+    return 'Ok',200
 
 @app.route('/is_ready')
 def readiness():

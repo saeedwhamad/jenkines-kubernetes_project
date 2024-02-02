@@ -1,19 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: yolo5bot.py
+  name: yolo5bot
 spec:
   selector:
     matchLabels:
-      app: yolo5bot.py
+      app: yolo5bot
   template:
     metadata:
       labels:
-        app: yolo5bot.py
+        app: yolo5bot
     spec:
       containers:
         - name: server
-          image: gcr.io/google-samples/microservices-demo/frontend:v0.8.0
+          image: saeedwh/yolok8s:latest
 
           resources:
             requests:
@@ -36,10 +36,10 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: yolo5bot.py
+  name: yolo5bot
 spec:
   selector:
-    app: yolo5bot.py
+    app: yolo5bot
   ports:
   - name: http
     port: 61
