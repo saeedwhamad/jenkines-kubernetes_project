@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa7083dd-cd5c-4604-8789-a93e0a96d509" name="Changes" comment="rm">
-      <change afterPath="$PROJECT_DIR$/DetectionBot/yolo5bot/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DetectionBot/yolo5bot/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/k8s/yolo5deployment.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/k8s/autoscaler.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s/autoscaler.yaml" afterDir="false" />
+    <list default="true" id="fa7083dd-cd5c-4604-8789-a93e0a96d509" name="Changes" comment="add servers code">
+      <change beforePath="$PROJECT_DIR$/DetectionBot/polybot/polybotbuild.Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/DetectionBot/polybot/polybotbuild.Jenkinsfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,13 +95,30 @@
       <option name="project" value="LOCAL" />
       <updated>1706627625358</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add servers code">
+      <option name="closed" value="true" />
+      <created>1706889499602</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1706889499602</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add servers code">
+      <option name="closed" value="true" />
+      <created>1706890176654</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1706890176654</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add k8s directory" />
     <MESSAGE value="add autoscaler" />
     <MESSAGE value="rm" />
-    <option name="LAST_COMMIT_MESSAGE" value="rm" />
+    <MESSAGE value="add servers code" />
+    <option name="LAST_COMMIT_MESSAGE" value="add servers code" />
   </component>
 </project>
