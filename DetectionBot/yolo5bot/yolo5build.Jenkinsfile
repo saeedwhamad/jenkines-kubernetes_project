@@ -32,6 +32,7 @@ pipeline {
         }
 
         failure {
+
             echo 'Docker image build, push, or deploy failed.'
         }
     }
