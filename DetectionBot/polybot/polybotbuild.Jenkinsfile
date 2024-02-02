@@ -2,9 +2,8 @@ pipeline {
     agent any
     stages{
         stage('Build') {
+           dir('DetectionBot\polybot'){
             steps {
-
-                   cleanWs()
                    sh '''
                    echo hi
                     docker login -u saeedwh -p sa22edhama
@@ -14,6 +13,7 @@ pipeline {
 
                       '''
                       }
+                   }
 
 
         }
