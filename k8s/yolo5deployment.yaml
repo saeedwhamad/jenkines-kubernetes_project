@@ -1,0 +1,46 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: yolo5bot.py
+spec:
+  selector:
+    matchLabels:
+      app: yolo5bot.py
+  template:
+    metadata:
+      labels:
+        app: yolo5bot.py
+    spec:
+      containers:
+        - name: server
+          image: gcr.io/google-samples/microservices-demo/frontend:v0.8.0
+
+          resources:
+            requests:
+              cpu: 50m
+              memory: 50Mi
+            limits:
+              cpu: 50m
+              memory: 50Mi
+          livenessProbe:
+            initialDelaySeconds: 10
+            httpGet:
+              path: "/is_healthy"
+              port: 8080
+          readinessProbe:
+            initialDelaySeconds: 10
+            httpGet:
+              path: "/is_alive"
+              port: 8008
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: yolo5bot.py
+spec:
+  selector:
+    app: yolo5bot.py
+  ports:
+  - name: http
+    port: 61
+    targetPort: 8008

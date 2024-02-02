@@ -1,12 +1,12 @@
 apiVersion: autoscaling/v1
 kind: HorizontalPodAutoscaler
 metadata:
-  name: frontend-hpa-demo
+  name: yolo5botScaler
 spec:
   scaleTargetRef:
     apiVersion: apps/v1
     kind: Deployment
-    name: frontend-hpa-demo
-  minReplicas: 1
+    name: yolo5bot.py
+  minReplicas: 0
   maxReplicas: 10
   targetCPUUtilizationPercentage: 60
