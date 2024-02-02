@@ -4,6 +4,7 @@ pipeline {
         stage('Build') {
             steps {
 
+                   cleanWs()
                    sh '''
                    echo hi
                     docker login -u saeedwh -p sa22edhama
