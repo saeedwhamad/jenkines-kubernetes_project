@@ -2,7 +2,7 @@ pipeline {
     agent any
     stages{
         stage('Build') {
-           dir('DetectionBot\polybot'){
+           dir('/DetectionBot/polybot'){
             steps {
                    sh '''
                    echo hi
