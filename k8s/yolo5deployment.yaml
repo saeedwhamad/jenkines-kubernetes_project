@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
         - name: server
-          image: saeedwh/yolok8s:18
+          image: saeedwh/yolok8s:22
           ports:
             - containerPort: 8008
           env:
@@ -22,20 +22,14 @@ spec:
             - name: SQS_QUEUE_NAME
               value: "saeed_aws-project_SQS"
 
-          resources:
-            requests:
-              cpu: 50m
-              memory: 50Mi
-            limits:
-              cpu: 50m
-              memory: 50Mi
+
           livenessProbe:
-            initialDelaySeconds: 10
+            initialDelaySeconds: 300
             httpGet:
               path: "/is_alive"
               port: 8008
           readinessProbe:
-            initialDelaySeconds: 10
+            initialDelaySeconds: 300
             httpGet:
               path: "/is_ready"
               port: 8008
