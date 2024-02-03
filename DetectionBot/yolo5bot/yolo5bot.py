@@ -12,6 +12,9 @@ import flask
 
 app = flask.Flask(__name__)
 
+
+logger.info("yolo bot starts !!")
+
 images_bucket = os.environ['BUCKET_NAME']
 queue_name = os.environ['SQS_QUEUE_NAME']
 
