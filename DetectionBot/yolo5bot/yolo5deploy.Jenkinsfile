@@ -10,7 +10,7 @@ pipeline {
             steps {
 
                   script {
-                    sh "export TAG=${tag_number} && envsubst < /k8s/yolo5deployment.yaml | kubectl apply -f -"
+                    sh "export TAG=${tag_number} && envsubst < k8s/yolo5deployment.yaml | kubectl apply -f -"
                 }
             }
         }
