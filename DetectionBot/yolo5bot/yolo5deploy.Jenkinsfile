@@ -8,7 +8,7 @@ pipeline {
         stage('Deploy') {
             steps {
 
-                 sh "kubectl apply -f k8s\yolo5deployment.yaml --TAG=${tag_number}"
+                 sh "kubectl apply -f /k8s/yolo5deployment.yaml --TAG=${tag_number}"
             }
         }
     }
