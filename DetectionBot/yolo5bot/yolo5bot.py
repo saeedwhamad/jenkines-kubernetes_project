@@ -152,10 +152,10 @@ def consume():
 
 @app.route('/is_alive', methods=['GET'])
 def index():
-    return 'Ok'
+    return 'Ok',200
 @app.route('/is_ready', methods=['GET'])
 def readiness():
-    return 'OK'
+    return 'OK',200
 
 
 if __name__ == "__main__":

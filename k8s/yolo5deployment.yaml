@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
         - name: server
-          image: saeedwh/yolok8s:16
+          image: saeedwh/yolok8s:18
           ports:
             - containerPort: 8008
           env:
@@ -33,7 +33,7 @@ spec:
             initialDelaySeconds: 10
             httpGet:
               path: "/is_alive"
-              port: 8080
+              port: 8008
           readinessProbe:
             initialDelaySeconds: 10
             httpGet:
