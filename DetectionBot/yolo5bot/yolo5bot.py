@@ -11,7 +11,7 @@ from botocore.exceptions import ClientError
 import flask
 
 
-logger.info("fuck u ! ")
+logger.info("flask is starting *** ")
 
 app = flask.Flask(__name__)
 
