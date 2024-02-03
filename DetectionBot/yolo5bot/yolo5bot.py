@@ -169,10 +169,9 @@ def run_flask():
     app.run(host='0.0.0.0', port=8778)
 
 if __name__ == "__main__":
-
-
-    consume_thread = threading.Thread(target=consume, daemon=True)
     flask_thread = threading.Thread(target=run_flask, daemon=True)
+    consume_thread = threading.Thread(target=consume, daemon=True)
+
 
     # Start both threads
     consume_thread.start()

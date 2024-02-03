@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
         - name: server
-          image: saeedwh/yolok8s:23
+          image: saeedwh/yolok8s:24
           ports:
             - containerPort: 8778
           env:
