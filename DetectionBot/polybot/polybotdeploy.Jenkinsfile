@@ -7,7 +7,15 @@ pipeline {
     stages {
         stage('Deploy') {
             steps {
-                 sh "kubectl apply -f k8s\polybot_pod.yaml --TAG=${tag_number}"
+
+
+                 kubernetesDeploy(
+
+                     configs: 'k8s\polybot_pod.yaml',
+
+                     kubeconfigId: 'my-kubeconfig'
+
+                         )
             }
         }
     }
