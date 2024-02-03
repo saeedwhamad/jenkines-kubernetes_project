@@ -10,7 +10,6 @@ import requests
 from botocore.exceptions import ClientError
 import flask
 
-
 app = flask.Flask(__name__)
 
 images_bucket = os.environ['BUCKET_NAME']
@@ -121,7 +120,7 @@ def consume():
                             'prediction_summary': {'S': str(prediction_summary)}
                         }
                         response = table.put_item(Item=Item)
-                        logger.info(f'the response state is " {response} !!')
+                        logger.info(f'the response state is " {response}')
 
 
                     store_prediction_summary(prediction_id, prediction_summary)
@@ -133,7 +132,7 @@ def consume():
                     if response.status_code == 200:
                         logger.info("get request was sucssfull")
                     else:
-                        logger.info("get request failed !!")
+                        logger.info("get request failed !! ")
 
 
 
@@ -147,12 +146,16 @@ def consume():
             # Delete the message from the queue as the job is considered as DONE
             sqs_client.delete_message(QueueUrl=queue_name, ReceiptHandle=receipt_handle)
 
+
+
+
+
 @app.route('/is_alive', methods=['GET'])
 def index():
     return 'Ok'
-@app.route('/is_ready')
+@app.route('/is_ready', methods=['GET'])
 def readiness():
-    return 'OK', 200
+    return 'OK'
 
 
 if __name__ == "__main__":
