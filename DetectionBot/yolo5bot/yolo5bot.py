@@ -10,10 +10,13 @@ import requests
 from botocore.exceptions import ClientError
 import flask
 
+
+logger.info("fuck u ! ")
+
 app = flask.Flask(__name__)
 
 
-logger.info("yolo bot starts !!")
+
 
 images_bucket = os.environ['BUCKET_NAME']
 queue_name = os.environ['SQS_QUEUE_NAME']
