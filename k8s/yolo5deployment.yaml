@@ -13,7 +13,14 @@ spec:
     spec:
       containers:
         - name: server
-          image: saeedwh/yolok8s:latest
+          image: saeedwh/yolok8s:16
+          ports:
+            - containerPort: 8008
+          env:
+            - name: BUCKET_NAME
+              value: "saeedphotobucket"
+            - name: SQS_QUEUE_NAME
+              value: "saeed_aws-project_SQS"
 
           resources:
             requests:
@@ -25,12 +32,12 @@ spec:
           livenessProbe:
             initialDelaySeconds: 10
             httpGet:
-              path: "/is_healthy"
+              path: "/is_alive"
               port: 8080
           readinessProbe:
             initialDelaySeconds: 10
             httpGet:
-              path: "/is_alive"
+              path: "/is_ready"
               port: 8008
 ---
 apiVersion: v1
@@ -42,5 +49,5 @@ spec:
     app: yolo5bot
   ports:
   - name: http
-    port: 61
+    port: 8008
     targetPort: 8008

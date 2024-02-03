@@ -50,7 +50,7 @@ logger.info(f'TELEGRAM_APP_URL = {TELEGRAM_APP_URL}')
 def index():
     return 'Ok',200
 
-@app.route('/is_ready')
+@app.route('/is_ready', methods=['GET'])
 def readiness():
     return 'OK', 200
 
@@ -147,6 +147,4 @@ def load_test():
 
 if __name__ == "__main__":
     bot = ObjectDetectionBot(TELEGRAM_TOKEN, TELEGRAM_APP_URL)
-
-
     app.run(host='0.0.0.0', port=8443)

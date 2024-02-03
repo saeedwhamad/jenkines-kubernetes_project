@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa7083dd-cd5c-4604-8789-a93e0a96d509" name="Changes" comment="test">
-      <change beforePath="$PROJECT_DIR$/DetectionBot/yolo5bot/yolo5build.Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/DetectionBot/yolo5bot/yolo5build.Jenkinsfile" afterDir="false" />
+    <list default="true" id="fa7083dd-cd5c-4604-8789-a93e0a96d509" name="Changes" comment="fix yolo bot">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DetectionBot/polybot/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/DetectionBot/polybot/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DetectionBot/polybot/publicKey" beforeDir="false" afterPath="$PROJECT_DIR$/DetectionBot/polybot/projectALBpublic.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/k8s/polybot_pod.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s/polybot_pod.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/k8s/yolo5deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s/yolo5deployment.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,13 +24,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Lenovo/PycharmProjects/jenkines-kubernetes_project/DetectionBot/yolo5bot"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Lenovo/PycharmProjects/jenkines-kubernetes_project/DetectionBot/yolo5bot&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Lenovo\PycharmProjects\jenkines-kubernetes_project\DetectionBot\yolo5bot" />
@@ -70,62 +74,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1706627381305</updated>
-    </task>
-    <task id="LOCAL-00001" summary="add k8s directory">
-      <option name="closed" value="true" />
-      <created>1706627425212</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1706627425212</updated>
-    </task>
-    <task id="LOCAL-00002" summary="add autoscaler">
-      <option name="closed" value="true" />
-      <created>1706627554210</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1706627554210</updated>
-    </task>
-    <task id="LOCAL-00003" summary="rm">
-      <option name="closed" value="true" />
-      <created>1706627625358</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1706627625358</updated>
-    </task>
-    <task id="LOCAL-00004" summary="add servers code">
-      <option name="closed" value="true" />
-      <created>1706889499602</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1706889499602</updated>
-    </task>
-    <task id="LOCAL-00005" summary="add servers code">
-      <option name="closed" value="true" />
-      <created>1706890176654</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1706890176654</updated>
-    </task>
-    <task id="LOCAL-00006" summary="add servers code">
-      <option name="closed" value="true" />
-      <created>1706890805502</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1706890805502</updated>
-    </task>
-    <task id="LOCAL-00007" summary="add servers code">
-      <option name="closed" value="true" />
-      <created>1706890846116</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1706890846116</updated>
     </task>
     <task id="LOCAL-00008" summary="add servers code">
       <option name="closed" value="true" />
@@ -463,7 +411,63 @@
       <option name="project" value="LOCAL" />
       <updated>1706898562887</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="test">
+      <option name="closed" value="true" />
+      <created>1706898622862</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1706898622862</updated>
+    </task>
+    <task id="LOCAL-00051" summary="test">
+      <option name="closed" value="true" />
+      <created>1706898663061</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1706898663061</updated>
+    </task>
+    <task id="LOCAL-00052" summary="test">
+      <option name="closed" value="true" />
+      <created>1706898699465</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1706898699465</updated>
+    </task>
+    <task id="LOCAL-00053" summary="test">
+      <option name="closed" value="true" />
+      <created>1706898744891</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1706898744891</updated>
+    </task>
+    <task id="LOCAL-00054" summary="app.py change">
+      <option name="closed" value="true" />
+      <created>1706898811271</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1706898811271</updated>
+    </task>
+    <task id="LOCAL-00055" summary="app.py change">
+      <option name="closed" value="true" />
+      <created>1706901538339</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1706901538339</updated>
+    </task>
+    <task id="LOCAL-00056" summary="fix yolo bot">
+      <option name="closed" value="true" />
+      <created>1706953286043</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1706953286043</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -475,6 +479,8 @@
     <MESSAGE value="rm hi" />
     <MESSAGE value="add space" />
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="app.py change" />
+    <MESSAGE value="fix yolo bot" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix yolo bot" />
   </component>
 </project>
