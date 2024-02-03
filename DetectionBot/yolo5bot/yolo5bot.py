@@ -9,6 +9,7 @@ import json
 import requests
 from botocore.exceptions import ClientError
 import flask
+import threading
 
 
 logger.info("flask is starting *** ")
@@ -163,8 +164,21 @@ def index():
 def readiness():
     return 'OK',200
 
+def run_flask():
+    # Run the Flask app
+    app.run(host='0.0.0.0', port=8778)
 
 if __name__ == "__main__":
-    consume()
-    app.run(host='0.0.0.0', port=8778)
+
+
+    consume_thread = threading.Thread(target=consume, daemon=True)
+    flask_thread = threading.Thread(target=run_flask, daemon=True)
+
+    # Start both threads
+    consume_thread.start()
+    flask_thread.start()
+
+    # Wait for both threads to finish
+    consume_thread.join()
+    flask_thread.join()
 
