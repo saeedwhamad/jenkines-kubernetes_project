@@ -7,7 +7,7 @@ metadata:
 spec:
   containers:
   - name: server
-    image: saeedwh/polybotk8s:16
+    image: saeedwh/polybotk8s:17
     ports:
       - containerPort: 8443
     env:
@@ -20,6 +20,16 @@ spec:
       limits:
         cpu: 50m
         memory: 50Mi
+    livenessProbe:
+      initialDelaySeconds: 10
+      httpGet:
+        path: "/is_alive"
+        port: 8443
+    readinessProbe:
+      initialDelaySeconds: 10
+      httpGet:
+        path: "/is_ready"
+        port: 8443
 
 
 ---
