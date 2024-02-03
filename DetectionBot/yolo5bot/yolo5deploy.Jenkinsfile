@@ -9,8 +9,15 @@ pipeline {
         stage('Deploy') {
             steps {
 
+                kubernetesDeploy(
 
-                    sh  " kubectl apply -f  /k8s/yolo5deployment.yaml "
+                     configs: 'k8s\yolo5deployment.yaml',
+
+                     kubeconfigId: 'my-kubeconfig'
+
+                         )
+
+
 
             }
         }
