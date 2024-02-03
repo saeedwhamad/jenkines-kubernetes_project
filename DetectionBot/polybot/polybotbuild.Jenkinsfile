@@ -11,10 +11,14 @@ pipeline {
                     docker push saeedwh/polybotk8s:${BUILD_NUMBER}
                       '''
                       }
-
-
-
         }
+        stage('Trigger Deploy') {
+            steps {
+                  build job: 'deploy_polybot', wait: false, parameters: [
+                      string(name: 'tag_number', value: "${BUILD_NUMBER}")
+                           ]
+                    }
+               }
      }
      post {
         success {

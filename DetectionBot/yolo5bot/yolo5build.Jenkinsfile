@@ -13,12 +13,13 @@ pipeline {
             }
 
         }
-        stage('Deploy to Kubernetes') {
+        stage('Trigger Deploy') {
             steps {
-               sh "echo hi bye !!"
-                }
-
-        }
+                  build job: 'deploy_yolo5', wait: false, parameters: [
+                      string(name: 'tag_number', value: "${BUILD_NUMBER}")
+                           ]
+                    }
+               }
 
      }
      post {
