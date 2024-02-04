@@ -78,14 +78,16 @@ class ObjectDetectionBot(Bot):
 
         if self.is_current_msg_photo(msg):
             photo_path = self.download_user_photo(msg)
-            logger.info("dinshed !!! ")
+            logger.info("finshed !!! ")
 
             photo_name=str(uuid.uuid4()) + ".jpg"
+
+            logger.info(f'{photo_name}')
 
 
 
             # TODO upload the photo to S3
-            s3 = boto3.client('s3')
+            s3 = boto3.client('s3','us-west-2')
             s3.upload_file(photo_path, "saeedphotobucket", photo_name)
             logger.info("photo is uploaded !!! ")
 
