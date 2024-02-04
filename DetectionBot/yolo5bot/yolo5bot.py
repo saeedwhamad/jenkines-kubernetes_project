@@ -134,7 +134,7 @@ def consume():
 
                     # TODO perform a GET request to Polybot to `/results` endpoint
                     logger.info("sending get to results !! ")
-                    url=f"http://saeedAwsLoadBalancer-1054870717.us-west-2.elb.amazonaws.com:80/results?chat_id={chat_id}&prediction_id={prediction_id}"
+                    url=f"http://polybot-service:8443/results?chat_id={chat_id}&prediction_id={prediction_id}"
                     response = requests.get(url)
                     if response.status_code == 200:
                         logger.info("get request was sucssfull")
