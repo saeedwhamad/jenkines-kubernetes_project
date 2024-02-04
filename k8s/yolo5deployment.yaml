@@ -23,16 +23,7 @@ spec:
               value: "saeed_aws-project_SQS"
 
 
-          livenessProbe:
-            initialDelaySeconds: 10
-            httpGet:
-              path: "/is_alive"
-              port: 8778
-          readinessProbe:
-            initialDelaySeconds: 10
-            httpGet:
-              path: "/is_ready"
-              port: 8778
+
 ---
 apiVersion: v1
 kind: Service

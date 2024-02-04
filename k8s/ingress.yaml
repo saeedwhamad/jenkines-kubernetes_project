@@ -21,4 +21,4 @@ spec:
             service:
               name: polybot-service
               port:
-                number: 91
+                number: 8443

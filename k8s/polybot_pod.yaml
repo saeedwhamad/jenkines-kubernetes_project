@@ -14,19 +14,12 @@ spec:
     spec:
       containers:
         - name: server
-          image: saeedwh/polybotk8s:27
+          image: saeedwh/polybotk8s:28
           ports:
             - containerPort: 8443
           env:
             - name: TELEGRAM_APP_URL
               value: "https://saeed-bot.atech-bot.click:443"
-          resources:
-            requests:
-              cpu: 50m
-              memory: 50Mi
-            limits:
-              cpu: 50m
-              memory: 50Mi
 
 
 ---
@@ -39,6 +32,6 @@ spec:
     app: polybot
   ports:
     - protocol: TCP
-      port: 91
+      port: 8443
       targetPort: 8443
   type: ClusterIP
