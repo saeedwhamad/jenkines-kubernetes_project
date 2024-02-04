@@ -78,18 +78,25 @@ class ObjectDetectionBot(Bot):
 
         if self.is_current_msg_photo(msg):
             photo_path = self.download_user_photo(msg)
-            logger.info("finshed !!! ")
+
 
             photo_name=str(uuid.uuid4()) + ".jpg"
 
-            logger.info(f'{photo_name}')
+
 
 
 
             # TODO upload the photo to S3
             s3 = boto3.client('s3','us-west-2')
-            s3.upload_file(photo_path, "saeedphotobucket", photo_name)
-            logger.info("photo is uploaded !!! ")
+
+            try:
+                # Upload the file to S3
+                s3.upload_file(photo_path, "saeedphotobucket", photo_name)
+                logger.info("Photo is uploaded successfully!")
+            except FileNotFoundError:
+                logger.error(f"The file '{photo_path}' was not found.")
+            except Exception as e:
+                logger.error(f"An error occurred during S3 upload: {str(e)}")
 
             # TODO send a job to the SQS queue
             # Initialize SQS client without specifying region

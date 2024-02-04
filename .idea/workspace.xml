@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa7083dd-cd5c-4604-8789-a93e0a96d509" name="Changes" comment="add deploy pipeline">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DetectionBot/polybot/bot.py" beforeDir="false" afterPath="$PROJECT_DIR$/DetectionBot/polybot/bot.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/k8s/polybot_pod.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s/polybot_pod.yaml" afterDir="false" />
     </list>
@@ -85,22 +86,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1706627381305</updated>
-    </task>
-    <task id="LOCAL-00039" summary="test">
-      <option name="closed" value="true" />
-      <created>1706897838338</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1706897838338</updated>
-    </task>
-    <task id="LOCAL-00040" summary="test">
-      <option name="closed" value="true" />
-      <created>1706897903434</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1706897903434</updated>
     </task>
     <task id="LOCAL-00041" summary="test">
       <option name="closed" value="true" />
@@ -478,7 +463,23 @@
       <option name="project" value="LOCAL" />
       <updated>1707078055506</updated>
     </task>
-    <option name="localTasksCounter" value="88" />
+    <task id="LOCAL-00088" summary="add deploy pipeline">
+      <option name="closed" value="true" />
+      <created>1707078387202</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1707078387202</updated>
+    </task>
+    <task id="LOCAL-00089" summary="add deploy pipeline">
+      <option name="closed" value="true" />
+      <created>1707078669383</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1707078669383</updated>
+    </task>
+    <option name="localTasksCounter" value="90" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
