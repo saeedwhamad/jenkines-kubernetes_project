@@ -78,6 +78,7 @@ class ObjectDetectionBot(Bot):
 
         if self.is_current_msg_photo(msg):
             photo_path = self.download_user_photo(msg)
+            logger.info("dinshed !!! ")
 
             photo_name=str(uuid.uuid4()) + ".jpg"
 
