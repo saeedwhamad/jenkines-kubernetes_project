@@ -87,10 +87,11 @@ class ObjectDetectionBot(Bot):
 
 
             # TODO upload the photo to S3
-            s3 = boto3.client('s3','us-west-2')
+
 
             try:
                 # Upload the file to S3
+                s3 = boto3.client('s3', 'us-west-2')
                 s3.upload_file(photo_path, "saeedphotobucket", photo_name)
                 logger.info("Photo is uploaded successfully!")
             except FileNotFoundError:
