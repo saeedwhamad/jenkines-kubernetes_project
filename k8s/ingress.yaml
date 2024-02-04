@@ -1,25 +1,24 @@
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: nginx
+  name: saeed--ingress
   namespace: saeed
-
 spec:
   ingressClassName: nginx
   tls:
     - hosts:
       - saeed-bot.atech-bot.click
-      secretName: saeed-tls-secret-f
+      secretName: saeed-tls-secret
 
 
   rules:
     - host: saeed-bot.atech-bot.click
       http:
         paths:
-        - path: /saeedbot
+        - path: /
           pathType: Prefix
           backend:
             service:
-              name: polybot
+              name: polybot-service
               port:
                 number: 8443

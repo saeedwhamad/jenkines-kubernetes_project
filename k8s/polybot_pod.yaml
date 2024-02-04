@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: server
-          image: saeedwh/polybotk8s:21
+          image: saeedwh/polybotk8s:22
           ports:
             - containerPort: 8443
           env:
@@ -47,6 +47,7 @@ spec:
   selector:
     app: polybot
   ports:
-    - name: http
+    - protocol: TCP
       port: 8443
       targetPort: 8443
+  type: ClusterIP
