@@ -2,18 +2,19 @@ apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: nginx
-  namespace: saeed
+
 spec:
+  ingressClassName: nginx
   tls:
     - hosts:
       - saeed-bot.atech-bot.click
-      secretName: saeed-tls-secret-f
-  ingressClassName: saeed-nginx
+
+
   rules:
     - host: saeed-bot.atech-bot.click
       http:
         paths:
-        - path: /
+        - path: /saeedbot
           pathType: Prefix
           backend:
             service:

@@ -55,9 +55,9 @@ def readiness():
     return 'OK', 200
 
 
-@app.route(f'/{TELEGRAM_TOKEN}/', methods=['POST'])
+@app.route(f'/saeedbot/', methods=['POST'])
 def webhook():
-    logger.info(f"post telegram tokens {TELEGRAM_TOKEN} !!")
+    logger.info(f"the request has  arrived to webhok  !!")
 
     req = request.get_json()
     themsg = req['message']

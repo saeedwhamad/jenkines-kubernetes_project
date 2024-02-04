@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa7083dd-cd5c-4604-8789-a93e0a96d509" name="Changes" comment="add deploy pipeline">
-      <change beforePath="$PROJECT_DIR$/DetectionBot/yolo5bot/yolo5deploy.Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/DetectionBot/yolo5bot/yolo5deploy.Jenkinsfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DetectionBot/polybot/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/DetectionBot/polybot/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/k8s/ingress.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s/ingress.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/k8s/polybot_pod.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s/polybot_pod.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +17,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;saeedwhamad&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="ca2a9744-0dd0-43ae-995d-ddf38adaf99f" />
+        <option name="url" value="https://github.com/saeedwhamad/jenkines-kubernetes_project" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="ProjectId" id="2bgCYKZeE7rLupOZ67RCxlNfLnu" />
   <component name="ProjectViewState">
@@ -70,54 +87,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1706627381305</updated>
-    </task>
-    <task id="LOCAL-00027" summary="test">
-      <option name="closed" value="true" />
-      <created>1706896949875</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1706896949875</updated>
-    </task>
-    <task id="LOCAL-00028" summary="test">
-      <option name="closed" value="true" />
-      <created>1706897076297</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1706897076297</updated>
-    </task>
-    <task id="LOCAL-00029" summary="test">
-      <option name="closed" value="true" />
-      <created>1706897115880</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1706897115880</updated>
-    </task>
-    <task id="LOCAL-00030" summary="test">
-      <option name="closed" value="true" />
-      <created>1706897171740</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1706897171740</updated>
-    </task>
-    <task id="LOCAL-00031" summary="test">
-      <option name="closed" value="true" />
-      <created>1706897206483</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1706897206483</updated>
-    </task>
-    <task id="LOCAL-00032" summary="test">
-      <option name="closed" value="true" />
-      <created>1706897280737</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1706897280737</updated>
     </task>
     <task id="LOCAL-00033" summary="test">
       <option name="closed" value="true" />
@@ -463,7 +432,55 @@
       <option name="project" value="LOCAL" />
       <updated>1706997932106</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="add deploy pipeline">
+      <option name="closed" value="true" />
+      <created>1706998843918</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1706998843918</updated>
+    </task>
+    <task id="LOCAL-00077" summary="add deploy pipeline">
+      <option name="closed" value="true" />
+      <created>1706998975999</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1706998975999</updated>
+    </task>
+    <task id="LOCAL-00078" summary="add deploy pipeline">
+      <option name="closed" value="true" />
+      <created>1706999295315</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1706999295315</updated>
+    </task>
+    <task id="LOCAL-00079" summary="add deploy pipeline">
+      <option name="closed" value="true" />
+      <created>1706999563952</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1706999563952</updated>
+    </task>
+    <task id="LOCAL-00080" summary="add deploy pipeline">
+      <option name="closed" value="true" />
+      <created>1706999660761</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1706999660764</updated>
+    </task>
+    <task id="LOCAL-00081" summary="add deploy pipeline">
+      <option name="closed" value="true" />
+      <created>1706999727221</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1706999727221</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

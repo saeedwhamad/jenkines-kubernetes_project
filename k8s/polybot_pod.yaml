@@ -7,12 +7,12 @@ metadata:
 spec:
   containers:
   - name: server
-    image: saeedwh/polybotk8s:${TAG}
+    image: saeedwh/polybotk8s:20
     ports:
       - containerPort: 8443
     env:
       - name: TELEGRAM_APP_URL
-        value: "bot.atech-bot.click"
+        value: "bot.atech-bot.click/saeedbot"
     resources:
       requests:
         cpu: 50m
