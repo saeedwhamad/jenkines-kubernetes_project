@@ -55,7 +55,7 @@ def readiness():
     return 'OK', 200
 
 
-@app.route(f'/saeedbot/', methods=['POST'])
+@app.route('/saeedbot', methods=['POST'])
 def webhook():
     logger.info(f"the request has  arrived to webhok  !!")
 

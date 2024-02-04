@@ -8,6 +8,7 @@ spec:
   tls:
     - hosts:
       - saeed-bot.atech-bot.click
+      secretName: saeed-tls-secret-f
 
 
   rules:
