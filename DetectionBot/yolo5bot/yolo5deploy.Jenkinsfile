@@ -9,7 +9,11 @@ pipeline {
         stage('Deploy') {
             steps {
 
-              sh "kubectl apply -f ./k8s/yolo5deployment.yaml "
+              sh """
+              aws eks --region us-east-1 update-kubeconfig --name k8s-main
+
+              kubectl apply -f ./k8s/yolo5deployment.yaml --namespace saeed
+               """
             }
         }
     }
