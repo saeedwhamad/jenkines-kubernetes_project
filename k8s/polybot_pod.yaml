@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: server
-          image: saeedwh/polybotk8s:23
+          image: saeedwh/polybotk8s:24
           ports:
             - containerPort: 8443
           env:

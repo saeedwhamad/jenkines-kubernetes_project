@@ -82,8 +82,10 @@ class ObjectDetectionBot(Bot):
 
             photo_name=str(uuid.uuid4()) + ".jpg"
 
+
+
             # TODO upload the photo to S3
-            s3 = boto3.client('s3','us-west-2')
+            s3 = boto3.client('s3')
             s3.upload_file(photo_path, "saeedphotobucket", photo_name)
             logger.info("photo is uploaded !!! ")
 
