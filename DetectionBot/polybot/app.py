@@ -105,6 +105,7 @@ def results():
             labels_str = labels_str.replace("'", '"')
 
             # Attempting to extract labels as JSON
+
             try:
                 labels_data = json.loads(labels_str)
 
