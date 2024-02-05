@@ -14,6 +14,7 @@ pipeline {
                           withCredentials([file(credentialsId: 'KUBECONFIG', variable: 'KUBECONFIG')]) {
                         sh "sed -i 's|image: saeedwh/polybotk8s:.*|image: saeedwh/polybotk8s:${tag_number}|' ./k8s/yolo5deployment.yaml"
                         sh 'kubectl apply -f ./k8s/yolo5deployment.yaml'
+
                         }
                     }
                 }
