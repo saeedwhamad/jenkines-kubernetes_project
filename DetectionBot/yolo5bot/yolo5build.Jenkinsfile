@@ -9,6 +9,7 @@ pipeline {
                     docker tag yolok8s:${BUILD_NUMBER} saeedwh/yolok8s:${BUILD_NUMBER}
                     docker push saeedwh/yolok8s:${BUILD_NUMBER}
                       '''
+
             }
 
         }
