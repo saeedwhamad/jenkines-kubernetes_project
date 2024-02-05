@@ -20,6 +20,21 @@ spec:
           env:
             - name: TELEGRAM_APP_URL
               value: "https://saeed-bot.atech-bot.click:443"
+      resources:
+        limits:
+          cpu: "100m"  # 100 milliCPU
+          memory: "100Mi"  # 100 megabytes
+        requests:
+          cpu: "100m"  # 100 milliCPU
+          memory: "100Mi"  # 100 megabytes
+        readinessProbe:
+          httpGet:
+            path: /is_alive
+            port: 8443
+        livenessProbe:
+          httpGet:
+            path: /is_healthy
+            port: 8443
 
 
 ---

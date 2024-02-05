@@ -21,6 +21,21 @@ spec:
               value: "saeedphotobucket"
             - name: SQS_QUEUE_NAME
               value: "saeed_aws-project_SQS"
+      resources:
+        limits:
+          cpu: "100m"  # 100 milliCPU
+          memory: "100Mi"  # 100 megabytes
+        requests:
+          cpu: "100m"  # 100 milliCPU
+          memory: "100Mi"  # 100 megabytes
+        readinessProbe:
+          httpGet:
+            path: /is_alive
+            port: 8778
+        livenessProbe:
+          httpGet:
+            path: /is_healthy
+            port: 8778
 
 
 
