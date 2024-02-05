@@ -3,7 +3,6 @@ pipeline {
     stages{
         stage('Build') {
             steps {
-
                    sh '''
                     docker login -u saeedwh -p sa22edhama
                     docker image build -t yolok8s:${BUILD_NUMBER} ./DetectionBot/yolo5bot
