@@ -15,7 +15,7 @@ pipeline {
         }
         stage('Trigger Deploy') {
             steps {
-                  build job: 'deploy_yolo5', wait: false, parameters: [
+                  build job: 'yolo5Deploy', wait: false, parameters: [
                       string(name: 'tag_number', value: "${BUILD_NUMBER}")
                            ]
                     }

@@ -14,7 +14,7 @@ pipeline {
         }
         stage('Trigger Deploy') {
             steps {
-                  build job: 'deploy_polybot', wait: false, parameters: [
+                  build job: 'polybotDeploy', wait: false, parameters: [
                       string(name: 'tag_number', value: "${BUILD_NUMBER}")
                            ]
                     }
