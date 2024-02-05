@@ -86,30 +86,6 @@
       <option name="presentableId" value="Default" />
       <updated>1706627381305</updated>
     </task>
-    <task id="LOCAL-00051" summary="test">
-      <option name="closed" value="true" />
-      <created>1706898663061</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1706898663061</updated>
-    </task>
-    <task id="LOCAL-00052" summary="test">
-      <option name="closed" value="true" />
-      <created>1706898699465</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1706898699465</updated>
-    </task>
-    <task id="LOCAL-00053" summary="test">
-      <option name="closed" value="true" />
-      <created>1706898744891</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1706898744891</updated>
-    </task>
     <task id="LOCAL-00054" summary="app.py change">
       <option name="closed" value="true" />
       <created>1706898811271</created>
@@ -478,7 +454,31 @@
       <option name="project" value="LOCAL" />
       <updated>1707123900706</updated>
     </task>
-    <option name="localTasksCounter" value="100" />
+    <task id="LOCAL-00100" summary="add deploy pipeline">
+      <option name="closed" value="true" />
+      <created>1707156595147</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1707156595147</updated>
+    </task>
+    <task id="LOCAL-00101" summary="add deploy pipeline">
+      <option name="closed" value="true" />
+      <created>1707156664878</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1707156664878</updated>
+    </task>
+    <task id="LOCAL-00102" summary="add deploy pipeline">
+      <option name="closed" value="true" />
+      <created>1707156769293</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1707156769293</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
