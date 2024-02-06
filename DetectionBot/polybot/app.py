@@ -98,6 +98,7 @@ def results():
         labels_start = data.find("'labels': ")
         labels_end = data.find("]", labels_start)
 
+
         if labels_start != -1 and labels_end != -1:
             labels_str = data[labels_start + len("'labels': "): labels_end + 1]
 
