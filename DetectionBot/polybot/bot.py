@@ -131,7 +131,7 @@ class ObjectDetectionBot(Bot):
                 logger.info("sqs is been sent")
             else:
                 print("Failed to send job to SQS.")
-                logger.info("sqs failed ")
+                logger.info("sqs failed !")
 
             # TODO send message to the Telegram end-user (e.g. Your image is being processed. Please wait...)
             Bot.send_text(self, msg['chat']['id'], "We recived Your image, we are working on it, just a second  🕵️🕵️🕵️❤️")
